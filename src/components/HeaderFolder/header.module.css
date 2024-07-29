@@ -34,3 +34,24 @@
   font-size: 24px;
   color: #000000;
 }
+
+@media only screen and (max-width: 600px) {
+  .list_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  .icon {
+    display: none;
+  }
+}
