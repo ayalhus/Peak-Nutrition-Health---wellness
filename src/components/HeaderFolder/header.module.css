@@ -1,0 +1,36 @@
+.header_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  line-height: 45px;
+
+
+}
+
+.list_items {
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.single_item {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+.icon {
+  color: #000000;
+}
+
+
+.brand_name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+}
